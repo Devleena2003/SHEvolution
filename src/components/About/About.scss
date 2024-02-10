@@ -1,0 +1,48 @@
+@import '../../App.scss';
+
+:root {
+  --animation-delay: 75ms;
+}
+
+
+.about{
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+   
+    justify-content: center;
+   
+  
+}
+.text-container{
+   text-align: center;
+   padding: 5em;
+   h1{
+    font-weight: 700;
+    font-size: 70px;
+   }
+   span{
+    color: #edbe16;
+   }
+   p{
+    padding: 40px;
+    
+   }
+}
+.typewriter{
+  font-size: 25px;
+}
+.btn{
+  padding:20px 35px;
+  background-color: #edbe16;
+  border: none;
+  border-radius: 7px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover{
+  transform: scale(1.1);
+}

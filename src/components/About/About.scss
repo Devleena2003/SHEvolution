@@ -11,6 +11,7 @@
     display: flex;
    
     justify-content: center;
+
    
   
 }
@@ -28,6 +29,16 @@
     padding: 40px;
     
    }
+
+   @include mobile{
+    h1{
+      font-size: 50px;
+
+    }
+    p{
+      font-size: 20px;
+    }
+   }
 }
 .typewriter{
   font-size: 25px;
@@ -42,6 +53,10 @@
   font-size: 20px;
   font-weight: 500;
   transition: 0.3s ease-in-out;
+
+  @include mobile{
+   padding: 10px;
+  }
 }
 .btn:hover{
   transform: scale(1.1);

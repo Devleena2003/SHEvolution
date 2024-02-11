@@ -1,5 +1,5 @@
 import Sidebar from "../Sidebar/Sidebar";
-import "./navbar.scss";
+import "./Navbar.scss";
 import { motion } from "framer-motion";
 import LinkedIn from "../../assets/linkedin.png";
 import email from "../../assets/email.png";
